@@ -1,0 +1,13 @@
+example-client:
+  message: Hello, Chip!
+
+spring:
+  datasource:
+    data-username: exampleuser
+    data-password: changeme
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql:localhost:5740/example_client
+  profiles: dev
+  jpa:
+    hibernate:
+      ddl-auto: update

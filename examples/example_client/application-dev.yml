@@ -1,5 +1,6 @@
 example-client:
-  message: Hello, Chip!
+  message: Hello, Chip
+  message2: plus more from the second file!
 
 spring:
   datasource:

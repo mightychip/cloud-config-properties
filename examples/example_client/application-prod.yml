@@ -7,7 +7,7 @@ spring:
     data-password: changeme
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql:database:5432/cloud_config_demo
-  profiles: dev
   jpa:
     hibernate:
       ddl-auto: update
+  profiles: dev

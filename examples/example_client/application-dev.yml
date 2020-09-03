@@ -7,10 +7,10 @@ spring:
     data-password:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:example-client
-  profiles: dev
   jpa:
     hibernate:
       ddl-auto: create
+  profiles: dev
 ---
 #This profile provides full debug of generated SQL and can be very useful for customizing queries.
 spring:

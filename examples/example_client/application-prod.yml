@@ -3,10 +3,10 @@ example-client:
 
 spring:
   datasource:
-    data-username: exampleuser
+    data-username: root
     data-password: changeme
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql:localhost:5740/example_client
+    url: jdbc:postgresql:database:5432/cloud_config_demo
   profiles: dev
   jpa:
     hibernate:

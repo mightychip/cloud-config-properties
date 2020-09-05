@@ -6,13 +6,7 @@ example-client:
       pronoun: they
       linking-verb: are
 
-server:
-  port: 8085
-
 spring:
-  data:
-    rest:
-      base-path: /example-api
   datasource:
     data-username: exampleuser
     data-password: changeme
@@ -21,4 +15,4 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  profiles: dev
+  profiles: prod

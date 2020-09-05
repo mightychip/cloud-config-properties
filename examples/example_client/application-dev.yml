@@ -6,13 +6,7 @@ example-client:
       pronoun: they
       linking-verb: are
 
-server:
-  port: 8085
-
 spring:
-  data:
-    rest:
-      base-path: /example-api
   datasource:
     data-password:
     data-username: SA
@@ -23,7 +17,7 @@ spring:
       ddl-auto: create-drop
   profiles: dev
 ---
-#This profile provides full debug of generated SQL and can be very useful for customizing queries.
+# This profile provides full debug of generated SQL and can be very useful for customizing queries.
 spring:
   jpa:
     properties:

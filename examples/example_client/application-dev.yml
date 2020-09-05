@@ -1,5 +1,10 @@
 example-client:
   message: Hello, Chip
+  pronoun:
+    check:
+      name: Chip
+      pronoun: they
+      linking-verb: are
 
 spring:
   datasource:

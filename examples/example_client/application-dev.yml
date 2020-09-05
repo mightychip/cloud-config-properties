@@ -14,7 +14,7 @@ spring:
     url: jdbc:h2:mem:example-client
   jpa:
     hibernate:
-      ddl-auto: drop-create
+      ddl-auto: create-drop
   profiles: dev
 ---
 #This profile provides full debug of generated SQL and can be very useful for customizing queries.

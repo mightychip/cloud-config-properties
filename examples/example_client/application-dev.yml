@@ -3,8 +3,8 @@ example-client:
   pronoun:
     check:
       name: Chip
-      pronoun: they
-      linking-verb: are
+      pronoun: she
+      linking-verb: is
 
 server:
   port: 8085

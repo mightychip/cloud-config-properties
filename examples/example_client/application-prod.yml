@@ -1,15 +1,15 @@
 example-client:
   message: Hello, Chip!
-    pronoun:
-      check:
-        name: Chip
-        pronoun: they
-        linking-verb: are
+  pronoun:
+    check:
+      name: Chip
+      pronoun: they
+      linking-verb: are
 
 spring:
   datasource:
-    data-username: root
-    data-password: changeme
+    username: exampleuser
+    password: changeme
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql:database:5432/cloud_config_demo
   jpa:

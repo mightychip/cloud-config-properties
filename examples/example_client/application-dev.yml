@@ -8,8 +8,8 @@ example-client:
 
 spring:
   datasource:
-    password:
-    username: SA
+    data-password:
+    data-username: SA
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:example-client
   jpa:

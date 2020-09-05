@@ -1,5 +1,5 @@
 example-client:
-  message: Hello, Chip
+  message: Hello, Chip!  This message has been updated.
   pronoun:
     check:
       name: Chip

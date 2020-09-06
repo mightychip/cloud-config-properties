@@ -2,7 +2,7 @@ example-client:
   message: Hello, local user.
   pronoun:
     check:
-      name: local user
+      name: Local User
       pronoun: they
       linking-verb: are
 

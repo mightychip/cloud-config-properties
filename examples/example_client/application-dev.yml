@@ -3,7 +3,7 @@ example-client:
   pronoun:
     check:
       name: Test name
-      pronoun: she
+      pronoun: he
       linking-verb: is
 
 spring:

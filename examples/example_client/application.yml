@@ -2,7 +2,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health, refresh
+        include: health
   server:
     port: 8086
 
@@ -10,6 +10,16 @@ server:
   port: 8085
 
 spring:
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
   data:
     rest:
       base-path: /example-api
+  rabbitmq:
+    host: rabbit
+    username: exampleuser
+    password: chamgeme
+    port: 5672

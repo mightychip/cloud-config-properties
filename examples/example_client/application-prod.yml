@@ -6,19 +6,13 @@ example-client:
       pronoun: they
       linking-verb: are
 
-server:
-  port: 8085
-
 spring:
-  data:
-    rest:
-      base-path: /example-api
   datasource:
-    username: exampleuser
-    password: changeme
+    data-username: exampleuser
+    data-password: changeme
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql:database:5432/cloud_config_demo
   jpa:
     hibernate:
       ddl-auto: update
-  profiles: dev
+  profiles: prod

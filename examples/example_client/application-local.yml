@@ -1,8 +1,8 @@
 example-client:
-  message: Hello, Chip!
+  message: Hello, local user.
   pronoun:
     check:
-      name: Chip
+      name: Local User
       pronoun: they
       linking-verb: are
 
@@ -15,7 +15,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create-drop
-  profiles: dev
+  profiles: local
 ---
 # This profile provides full debug of generated SQL and can be very useful for customizing queries.
 spring:

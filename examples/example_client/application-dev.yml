@@ -2,9 +2,9 @@ example-client:
   message: Hello, Chip!
   pronoun:
     check:
-      name: Test name
-      pronoun: he
-      linking-verb: is
+      name: Chip
+      pronoun: they
+      linking-verb: are
 
 spring:
   datasource:

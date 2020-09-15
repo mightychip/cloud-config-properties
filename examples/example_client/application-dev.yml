@@ -2,7 +2,7 @@ example-client:
   message: Hello, Chip!
   pronoun:
     check:
-      name: Test person
+      name: Chip
       pronoun: they
       linking-verb: are
 

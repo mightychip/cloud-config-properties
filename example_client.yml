@@ -1,0 +1,27 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  server:
+    port: 8086
+
+server:
+  port: 8085
+
+spring:
+#  application:
+#    name: example_client
+  cloud:
+    bus:
+      enabled: true
+      refresh:
+        enabled: true
+  data:
+    rest:
+      base-path: /example-api
+  rabbitmq:
+    host: rabbit
+    username: exampleuser
+    password: changeme
+    port: 5672

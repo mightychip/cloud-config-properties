@@ -3,8 +3,8 @@ example-client:
   pronoun:
     check:
       name: Dev User
-      pronoun: they
-      linking-verb: are
+      pronoun: she
+      linking-verb: is
 
 spring:
   datasource:
